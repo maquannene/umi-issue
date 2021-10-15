@@ -9,10 +9,13 @@ export default (props: any) => {
           <button>Master</button>
         </Link>
         <Link to={'/slave'}>
-          <button>Slave</button>
+          <button>Master {'>'} Slave</button>
         </Link>
-        <Link to={'/slave/grandson'}>
-          <button>Slave(GrandSon)</button>
+        <Link to={'/grandson'}>
+          <button>Master {'>'} GrandSon</button>
+        </Link>
+        <Link to={'/slave/sonjiji'}>
+          <button>Master {'>'} Slave(GrandSon/jiji)</button>
         </Link>
       </div>
       <div>{props.children}</div>
