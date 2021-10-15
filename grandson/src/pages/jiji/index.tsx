@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default () => {
-  return <div>jiji</div>;
+  return <h1 style={{color: 'black'}}>jiji</h1>;
 };

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'umi';
 
+import './index.less';
+
 export default (props: any) => {
   return (
     <div>

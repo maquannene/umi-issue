@@ -5,6 +5,10 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
+  // styleLoader: {
+  //   insert: 'body',
+  //   injectType: 'singletonStyleTag',
+  // },
   qiankun: {
     master: {},
   },
